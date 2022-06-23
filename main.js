@@ -34,7 +34,7 @@ class Truck extends Car{
     constructor(wheelsNumber,engine,color,kind,size){
     super(wheelsNumber,engine,color,kind)
     this.size=size;
-    this.name=this.name
+    // this.name=this.name
     this.returnValuetruck();
     }
     returnValuetruck(){
@@ -51,7 +51,7 @@ class Jeep extends Car{
     super(wheelsNumber,engine,color,kind,size)
     this.weight=weight;
     this.returnValuejeep();
-    get.Truck().toUpperCase(this.name);
+    // Truck().toUpperCase(this.name);
     }
     returnValuejeep(){
     return (`${this.wheelsNumber} ${this.engine} ${this.color} ${this.kind} ${this.size} ${this.weight}`);
